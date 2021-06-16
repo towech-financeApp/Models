@@ -7,5 +7,5 @@ export default interface User {
   accountconfirmed: boolean;
   refreshtokens: string[];
   singlesessiontoken: string;
-  createdAt: Date;
+  createdat: Date;
 }
