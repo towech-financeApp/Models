@@ -1,11 +1,11 @@
 export default interface User {
-  userID: number;
+  userid: number;
   name: string;
   username: string;
   password: string | undefined;
   role: string;
-  accountConfirmed: boolean;
-  refreshTokens: string[];
-  singleSessionToken: string;
+  accountconfirmed: boolean;
+  refreshtokens: string[];
+  singlesessiontoken: string;
   createdAt: Date;
 }
