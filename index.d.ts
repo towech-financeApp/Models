@@ -1,3 +1,7 @@
 import User from './user';
+import Wallet from './wallet';
 
-export { User };
+export { 
+  User,
+  Wallet,
+};
