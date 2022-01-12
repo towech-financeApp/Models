@@ -8,6 +8,5 @@ export default interface User {
   refreshTokens: string[];
   singleSessionToken: string | undefined;
   resetToken: string | undefined;
-  verified: boolean | undefined;
   createdAt: Date;
 }
