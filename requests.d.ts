@@ -1,5 +1,4 @@
-import categories from './Requests';
-
+import WorkerGetAllCategories from "./Requests/workerGetAllCategories"
 export {
-  categories,
+  WorkerGetAllCategories,
 }
