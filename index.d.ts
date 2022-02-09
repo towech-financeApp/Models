@@ -1,11 +1,7 @@
-import Transaction from './transaction';
-import User from './user';
-import Wallet from './wallet';
-import Category from './category';
+import Objects from './objects';
+import Requests from './requests';
 
 export { 
-  Category,
-  Transaction,
-  User,
-  Wallet,
+  Objects,
+  Requests,
 };
