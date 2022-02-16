@@ -6,12 +6,13 @@ import {
   WorkerPasswordReset,
   WorkerRegisterUser,
 } from "./Requests/userService";
+import { WorkerGetTransactions } from "./Requests/transactionService";
 import WorkerGetAllCategories from "./Requests/workerGetAllCategories";
 
-export { 
+export {
   // CategoryReportService
   WorkerGetAllCategories,
-  
+
   // UserService
   WorkerChangeEmail,
   WorkerChangePassword,
@@ -19,4 +20,7 @@ export {
   WorkerGetUserByUsername,
   WorkerPasswordReset,
   WorkerRegisterUser,
+
+  // TransactionService
+  WorkerGetTransactions,
 };
