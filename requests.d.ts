@@ -8,6 +8,7 @@ import {
 } from "./Requests/userService";
 import { WorkerGetTransactions } from "./Requests/transactionService";
 import WorkerGetAllCategories from "./Requests/workerGetAllCategories";
+import { LoginRequest } from "./Requests/webApi";
 
 export {
   // CategoryReportService
@@ -23,4 +24,7 @@ export {
 
   // TransactionService
   WorkerGetTransactions,
+
+  // WebApi
+  LoginRequest,
 };
