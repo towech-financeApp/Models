@@ -5,4 +5,5 @@ import Responses from './responses';
 export { 
   Objects,
   Requests,
+  Responses,
 };
