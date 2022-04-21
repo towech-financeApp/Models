@@ -7,6 +7,7 @@ export default interface Transaction {
   category: Category;
   concept: string;
   amount: number;
+  excludeFromReport: boolean;
   transactionDate: Date;
   createdAt: Date;
 }
