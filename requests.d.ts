@@ -6,7 +6,10 @@ import {
   WorkerPasswordReset,
   WorkerRegisterUser,
 } from "./Requests/userService";
-import { WorkerGetTransactions } from "./Requests/transactionService";
+import {
+  WorkerGetTransactions,
+  WorkerTransfer,
+} from "./Requests/transactionService";
 import WorkerGetAllCategories from "./Requests/workerGetAllCategories";
 import { LoginRequest } from "./Requests/webApi";
 
@@ -24,6 +27,7 @@ export {
 
   // TransactionService
   WorkerGetTransactions,
+  WorkerTransfer,
 
   // WebApi
   LoginRequest,
