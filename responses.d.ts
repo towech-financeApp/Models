@@ -1,9 +1,9 @@
 import { AuthenticationResponse, GetCategoriesResponse } from './Responses/webApi';
-import { EditTransactionResponse } from './Responses/TransactionService';
+import { ChangeTransactionResponse } from './Responses/TransactionService';
 
 export {
   // TransactionService
-  EditTransactionResponse,
+  ChangeTransactionResponse,
 
   // WebApi
   AuthenticationResponse,
