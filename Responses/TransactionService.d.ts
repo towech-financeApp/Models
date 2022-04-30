@@ -3,6 +3,6 @@ import Wallet from '../Objects/wallet';
 
 export interface ChangeTransactionResponse {
   newTransactions: Transaction[];
-  oldTransactions: Transaction[] | undefined;
+  oldTransactions?: Transaction[];
   wallets: Wallet[];
 }
