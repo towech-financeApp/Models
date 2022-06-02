@@ -11,7 +11,7 @@ import {
   WorkerTransfer,
 } from "./Requests/transactionService";
 import WorkerGetAllCategories from "./Requests/workerGetAllCategories";
-import { LoginRequest } from "./Requests/webApi";
+import { LoginRequest, NewCategoryRequest } from "./Requests/webApi";
 
 export {
   // CategoryReportService
@@ -31,4 +31,5 @@ export {
 
   // WebApi
   LoginRequest,
+  NewCategoryRequest
 };

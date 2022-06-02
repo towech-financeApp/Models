@@ -4,7 +4,7 @@ export interface LoginRequest {
   keepSession: boolean;
 }
 
-export interface newCategoryRequest {
+export interface NewCategoryRequest {
   icon_id: number;
   parent_id: string;
   name: string;
