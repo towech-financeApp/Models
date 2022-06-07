@@ -7,4 +7,5 @@ export interface AuthenticationResponse {
 export interface GetCategoriesResponse {
   Income: Category[],
   Expense: Category[],
+  Archived: Category[],
 }
