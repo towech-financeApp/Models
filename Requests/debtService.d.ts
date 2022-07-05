@@ -6,3 +6,10 @@ export interface WorkerCreateDebt {
   date: Date;
   deduct: boolean;
 }
+
+export interface WorkerPayDebt {
+  user_id: string;
+  debt_id: string;
+  amount: number;
+  wallet_id: string;
+}
