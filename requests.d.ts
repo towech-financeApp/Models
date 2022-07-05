@@ -12,6 +12,7 @@ import {
 } from "./Requests/transactionService";
 import WorkerGetAllCategories from "./Requests/workerGetAllCategories";
 import { LoginRequest, NewCategoryRequest } from "./Requests/webApi";
+import { WorkerCreateDebt } from "./Requests/debtService";
 
 export {
   // CategoryReportService
@@ -31,5 +32,8 @@ export {
 
   // WebApi
   LoginRequest,
-  NewCategoryRequest
+  NewCategoryRequest,
+
+  // Debt Service
+  WorkerCreateDebt,
 };
