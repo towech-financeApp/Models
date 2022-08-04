@@ -17,7 +17,7 @@ export interface BaseUser {
   accountConfirmed: boolean;
   createdAt: Date;
   name: string;
-  role: "admin" | "user";
+  role: 'admin' | 'user';
   username: string;
 }
 
@@ -32,15 +32,3 @@ export interface FrontendUser extends BaseUser {
 export interface BackendUser extends FrontendUser {
   password: string;
 }
-
-export const UserSchema = new mongoose.Schema({
-  name: String,
-  username: String,
-  password: String,
-  role: String,
-  accountConfirmed: Boolean,
-  refreshTokens: [String],
-  singleSessionToken: String,
-  resetToken: String,
-  createdAt: String,
-});
